@@ -1,0 +1,9 @@
+@tailwind components;
+
+@layer components{
+    .option {
+        @apply cursor-pointer hover:bg-gray-100 transition duration-200 ease-out p-2 rounded-lg; /*using the @apply directive, these styles are applied to the .option class,
+        This approach helps keep your code DRY (Don't Repeat Yourself)*/
+    }
+
+}
